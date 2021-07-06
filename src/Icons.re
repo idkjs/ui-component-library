@@ -5,7 +5,7 @@ module Activity = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiActivity";
@@ -17,7 +17,7 @@ module Airplay = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiAirplay";
@@ -29,7 +29,7 @@ module AlertCircle = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiAlertCircle";
@@ -41,7 +41,7 @@ module AlertOctagon = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiAlertOctagon";
@@ -53,7 +53,7 @@ module AlertTriangle = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiAlertTriangle";
@@ -65,7 +65,7 @@ module AlignCenter = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiAlignCenter";
@@ -77,7 +77,7 @@ module AlignJustify = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiAlignJustify";
@@ -89,7 +89,7 @@ module AlignLeft = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiAlignLeft";
@@ -101,7 +101,7 @@ module AlignRight = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiAlignRight";
@@ -113,7 +113,7 @@ module Anchor = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiAnchor";
@@ -125,7 +125,7 @@ module Aperture = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiAperture";
@@ -137,7 +137,7 @@ module Archive = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiArchive";
@@ -149,7 +149,7 @@ module ArrowDownCircle = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiArrowDownCircle";
@@ -161,7 +161,7 @@ module ArrowDownLeft = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiArrowDownLeft";
@@ -173,7 +173,7 @@ module ArrowDownRight = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiArrowDownRight";
@@ -185,7 +185,7 @@ module ArrowDown = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiArrowDown";
@@ -197,7 +197,7 @@ module ArrowLeftCircle = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiArrowLeftCircle";
@@ -209,7 +209,7 @@ module ArrowLeft = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiArrowLeft";
@@ -221,7 +221,7 @@ module ArrowRightCircle = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiArrowRightCircle";
@@ -233,7 +233,7 @@ module ArrowRight = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiArrowRight";
@@ -245,7 +245,7 @@ module ArrowUpCircle = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiArrowUpCircle";
@@ -257,7 +257,7 @@ module ArrowUpLeft = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiArrowUpLeft";
@@ -269,7 +269,7 @@ module ArrowUpRight = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiArrowUpRight";
@@ -281,7 +281,7 @@ module ArrowUp = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiArrowUp";
@@ -293,7 +293,7 @@ module AtSign = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiAtSign";
@@ -305,7 +305,7 @@ module Award = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiAward";
@@ -317,7 +317,7 @@ module BarChart2 = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiBarChart2";
@@ -329,7 +329,7 @@ module BarChart = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiBarChart";
@@ -341,7 +341,7 @@ module BatteryCharging = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiBatteryCharging";
@@ -353,7 +353,7 @@ module Battery = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiBattery";
@@ -365,7 +365,7 @@ module BellOff = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiBellOff";
@@ -377,7 +377,7 @@ module Bell = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiBell";
@@ -389,7 +389,7 @@ module Bluetooth = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiBluetooth";
@@ -401,7 +401,7 @@ module Bold = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiBold";
@@ -413,7 +413,7 @@ module BookOpen = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiBookOpen";
@@ -425,7 +425,7 @@ module Book = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiBook";
@@ -437,7 +437,7 @@ module Bookmark = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiBookmark";
@@ -449,7 +449,7 @@ module Box = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiBox";
@@ -461,7 +461,7 @@ module Briefcase = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiBriefcase";
@@ -473,7 +473,7 @@ module Calendar = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCalendar";
@@ -485,7 +485,7 @@ module CameraOff = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCameraOff";
@@ -497,7 +497,7 @@ module Camera = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCamera";
@@ -509,7 +509,7 @@ module Cast = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCast";
@@ -521,7 +521,7 @@ module CheckCircle = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCheckCircle";
@@ -533,7 +533,7 @@ module CheckSquare = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCheckSquare";
@@ -545,7 +545,7 @@ module Check = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCheck";
@@ -557,7 +557,7 @@ module ChevronDown = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiChevronDown";
@@ -569,7 +569,7 @@ module ChevronLeft = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiChevronLeft";
@@ -581,7 +581,7 @@ module ChevronRight = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiChevronRight";
@@ -593,7 +593,7 @@ module ChevronUp = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiChevronUp";
@@ -605,7 +605,7 @@ module ChevronsDown = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiChevronsDown";
@@ -617,7 +617,7 @@ module ChevronsLeft = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiChevronsLeft";
@@ -629,7 +629,7 @@ module ChevronsRight = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiChevronsRight";
@@ -641,7 +641,7 @@ module ChevronsUp = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiChevronsUp";
@@ -653,7 +653,7 @@ module Chrome = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiChrome";
@@ -665,7 +665,7 @@ module Circle = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCircle";
@@ -677,7 +677,7 @@ module Clipboard = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiClipboard";
@@ -689,7 +689,7 @@ module Clock = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiClock";
@@ -701,7 +701,7 @@ module CloudDrizzle = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCloudDrizzle";
@@ -713,7 +713,7 @@ module CloudLightning = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCloudLightning";
@@ -725,7 +725,7 @@ module CloudOff = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCloudOff";
@@ -737,7 +737,7 @@ module CloudRain = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCloudRain";
@@ -749,7 +749,7 @@ module CloudSnow = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCloudSnow";
@@ -761,7 +761,7 @@ module Cloud = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCloud";
@@ -773,7 +773,7 @@ module Code = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCode";
@@ -785,7 +785,7 @@ module Codepen = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCodepen";
@@ -797,7 +797,7 @@ module Codesandbox = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCodesandbox";
@@ -809,7 +809,7 @@ module Coffee = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCoffee";
@@ -821,7 +821,7 @@ module Columns = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiColumns";
@@ -833,7 +833,7 @@ module Command = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCommand";
@@ -845,7 +845,7 @@ module Compass = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCompass";
@@ -857,7 +857,7 @@ module Copy = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCopy";
@@ -869,7 +869,7 @@ module CornerDownLeft = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCornerDownLeft";
@@ -881,7 +881,7 @@ module CornerDownRight = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCornerDownRight";
@@ -893,7 +893,7 @@ module CornerLeftDown = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCornerLeftDown";
@@ -905,7 +905,7 @@ module CornerLeftUp = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCornerLeftUp";
@@ -917,7 +917,7 @@ module CornerRightDown = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCornerRightDown";
@@ -929,7 +929,7 @@ module CornerRightUp = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCornerRightUp";
@@ -941,7 +941,7 @@ module CornerUpLeft = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCornerUpLeft";
@@ -953,7 +953,7 @@ module CornerUpRight = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCornerUpRight";
@@ -965,7 +965,7 @@ module Cpu = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCpu";
@@ -977,7 +977,7 @@ module CreditCard = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCreditCard";
@@ -989,7 +989,7 @@ module Crop = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCrop";
@@ -1001,7 +1001,7 @@ module Crosshair = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiCrosshair";
@@ -1013,7 +1013,7 @@ module Database = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiDatabase";
@@ -1025,7 +1025,7 @@ module Delete = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiDelete";
@@ -1037,7 +1037,7 @@ module Disc = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiDisc";
@@ -1049,7 +1049,7 @@ module DollarSign = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiDollarSign";
@@ -1061,7 +1061,7 @@ module DownloadCloud = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiDownloadCloud";
@@ -1073,7 +1073,7 @@ module Download = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiDownload";
@@ -1085,7 +1085,7 @@ module Droplet = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiDroplet";
@@ -1097,7 +1097,7 @@ module Edit2 = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiEdit2";
@@ -1109,7 +1109,7 @@ module Edit3 = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiEdit3";
@@ -1121,7 +1121,7 @@ module Edit = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiEdit";
@@ -1133,7 +1133,7 @@ module ExternalLink = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiExternalLink";
@@ -1145,7 +1145,7 @@ module EyeOff = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiEyeOff";
@@ -1157,7 +1157,7 @@ module Eye = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiEye";
@@ -1169,7 +1169,7 @@ module Facebook = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiFacebook";
@@ -1181,7 +1181,7 @@ module FastForward = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiFastForward";
@@ -1193,7 +1193,7 @@ module Feather = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiFeather";
@@ -1205,7 +1205,7 @@ module Figma = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiFigma";
@@ -1217,7 +1217,7 @@ module FileMinus = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiFileMinus";
@@ -1229,7 +1229,7 @@ module FilePlus = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiFilePlus";
@@ -1241,7 +1241,7 @@ module FileText = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiFileText";
@@ -1253,7 +1253,7 @@ module File = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiFile";
@@ -1265,7 +1265,7 @@ module Film = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiFilm";
@@ -1277,7 +1277,7 @@ module Filter = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiFilter";
@@ -1289,7 +1289,7 @@ module Flag = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiFlag";
@@ -1301,7 +1301,7 @@ module FolderMinus = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiFolderMinus";
@@ -1313,7 +1313,7 @@ module FolderPlus = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiFolderPlus";
@@ -1325,7 +1325,7 @@ module Folder = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiFolder";
@@ -1337,7 +1337,7 @@ module Frown = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiFrown";
@@ -1349,7 +1349,7 @@ module Gift = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiGift";
@@ -1361,7 +1361,7 @@ module GitBranch = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiGitBranch";
@@ -1373,7 +1373,7 @@ module GitCommit = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiGitCommit";
@@ -1385,7 +1385,7 @@ module GitMerge = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiGitMerge";
@@ -1397,7 +1397,7 @@ module GitPullRequest = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiGitPullRequest";
@@ -1409,7 +1409,7 @@ module Github = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiGithub";
@@ -1421,7 +1421,7 @@ module Gitlab = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiGitlab";
@@ -1433,7 +1433,7 @@ module Globe = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiGlobe";
@@ -1445,7 +1445,7 @@ module Grid = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiGrid";
@@ -1457,7 +1457,7 @@ module HardDrive = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiHardDrive";
@@ -1469,7 +1469,7 @@ module Hash = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiHash";
@@ -1481,7 +1481,7 @@ module Headphones = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiHeadphones";
@@ -1493,7 +1493,7 @@ module Heart = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiHeart";
@@ -1505,7 +1505,7 @@ module HelpCircle = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiHelpCircle";
@@ -1517,7 +1517,7 @@ module Hexagon = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiHexagon";
@@ -1529,7 +1529,7 @@ module Home = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiHome";
@@ -1541,7 +1541,7 @@ module Image = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiImage";
@@ -1553,7 +1553,7 @@ module Inbox = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiInbox";
@@ -1565,7 +1565,7 @@ module Info = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiInfo";
@@ -1577,7 +1577,7 @@ module Instagram = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiInstagram";
@@ -1589,7 +1589,7 @@ module Italic = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiItalic";
@@ -1601,7 +1601,7 @@ module Key = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiKey";
@@ -1613,7 +1613,7 @@ module Layers = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiLayers";
@@ -1625,7 +1625,7 @@ module Layout = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiLayout";
@@ -1637,7 +1637,7 @@ module LifeBuoy = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiLifeBuoy";
@@ -1649,7 +1649,7 @@ module Link2 = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiLink2";
@@ -1661,7 +1661,7 @@ module Link = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiLink";
@@ -1673,7 +1673,7 @@ module Linkedin = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiLinkedin";
@@ -1685,7 +1685,7 @@ module List = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiList";
@@ -1697,7 +1697,7 @@ module Loader = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiLoader";
@@ -1709,7 +1709,7 @@ module Lock = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiLock";
@@ -1721,7 +1721,7 @@ module LogIn = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiLogIn";
@@ -1733,7 +1733,7 @@ module LogOut = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiLogOut";
@@ -1745,7 +1745,7 @@ module Mail = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMail";
@@ -1757,7 +1757,7 @@ module MapPin = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMapPin";
@@ -1769,7 +1769,7 @@ module Map = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMap";
@@ -1781,7 +1781,7 @@ module Maximize2 = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMaximize2";
@@ -1793,7 +1793,7 @@ module Maximize = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMaximize";
@@ -1805,7 +1805,7 @@ module Meh = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMeh";
@@ -1817,7 +1817,7 @@ module Menu = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMenu";
@@ -1829,7 +1829,7 @@ module MessageCircle = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMessageCircle";
@@ -1841,7 +1841,7 @@ module MessageSquare = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMessageSquare";
@@ -1853,7 +1853,7 @@ module MicOff = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMicOff";
@@ -1865,7 +1865,7 @@ module Mic = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMic";
@@ -1877,7 +1877,7 @@ module Minimize2 = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMinimize2";
@@ -1889,7 +1889,7 @@ module Minimize = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMinimize";
@@ -1901,7 +1901,7 @@ module MinusCircle = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMinusCircle";
@@ -1913,7 +1913,7 @@ module MinusSquare = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMinusSquare";
@@ -1925,7 +1925,7 @@ module Minus = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMinus";
@@ -1937,7 +1937,7 @@ module Monitor = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMonitor";
@@ -1949,7 +1949,7 @@ module Moon = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMoon";
@@ -1961,7 +1961,7 @@ module MoreHorizontal = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMoreHorizontal";
@@ -1973,7 +1973,7 @@ module MoreVertical = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMoreVertical";
@@ -1985,7 +1985,7 @@ module MousePointer = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMousePointer";
@@ -1997,7 +1997,7 @@ module Move = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMove";
@@ -2009,7 +2009,7 @@ module Music = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiMusic";
@@ -2021,7 +2021,7 @@ module Navigation2 = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiNavigation2";
@@ -2033,7 +2033,7 @@ module Navigation = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiNavigation";
@@ -2045,7 +2045,7 @@ module Octagon = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiOctagon";
@@ -2057,7 +2057,7 @@ module Package = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPackage";
@@ -2069,7 +2069,7 @@ module Paperclip = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPaperclip";
@@ -2081,7 +2081,7 @@ module PauseCircle = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPauseCircle";
@@ -2093,7 +2093,7 @@ module Pause = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPause";
@@ -2105,7 +2105,7 @@ module PenTool = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPenTool";
@@ -2117,7 +2117,7 @@ module Percent = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPercent";
@@ -2129,7 +2129,7 @@ module PhoneCall = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPhoneCall";
@@ -2141,7 +2141,7 @@ module PhoneForwarded = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPhoneForwarded";
@@ -2153,7 +2153,7 @@ module PhoneIncoming = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPhoneIncoming";
@@ -2165,7 +2165,7 @@ module PhoneMissed = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPhoneMissed";
@@ -2177,7 +2177,7 @@ module PhoneOff = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPhoneOff";
@@ -2189,7 +2189,7 @@ module PhoneOutgoing = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPhoneOutgoing";
@@ -2201,7 +2201,7 @@ module Phone = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPhone";
@@ -2213,7 +2213,7 @@ module PieChart = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPieChart";
@@ -2225,7 +2225,7 @@ module PlayCircle = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPlayCircle";
@@ -2237,7 +2237,7 @@ module Play = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPlay";
@@ -2249,7 +2249,7 @@ module PlusCircle = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPlusCircle";
@@ -2261,7 +2261,7 @@ module PlusSquare = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPlusSquare";
@@ -2273,7 +2273,7 @@ module Plus = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPlus";
@@ -2285,7 +2285,7 @@ module Pocket = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPocket";
@@ -2297,7 +2297,7 @@ module Power = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPower";
@@ -2309,7 +2309,7 @@ module Printer = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiPrinter";
@@ -2321,7 +2321,7 @@ module Radio = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiRadio";
@@ -2333,7 +2333,7 @@ module RefreshCcw = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiRefreshCcw";
@@ -2345,7 +2345,7 @@ module RefreshCw = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiRefreshCw";
@@ -2357,7 +2357,7 @@ module Repeat = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiRepeat";
@@ -2369,7 +2369,7 @@ module Rewind = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiRewind";
@@ -2381,7 +2381,7 @@ module RotateCcw = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiRotateCcw";
@@ -2393,7 +2393,7 @@ module RotateCw = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiRotateCw";
@@ -2405,7 +2405,7 @@ module Rss = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiRss";
@@ -2417,7 +2417,7 @@ module Save = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiSave";
@@ -2429,7 +2429,7 @@ module Scissors = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiScissors";
@@ -2441,7 +2441,7 @@ module Search = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiSearch";
@@ -2453,7 +2453,7 @@ module Send = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiSend";
@@ -2465,7 +2465,7 @@ module Server = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiServer";
@@ -2477,7 +2477,7 @@ module Settings = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiSettings";
@@ -2489,7 +2489,7 @@ module Share2 = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiShare2";
@@ -2501,7 +2501,7 @@ module Share = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiShare";
@@ -2513,7 +2513,7 @@ module ShieldOff = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiShieldOff";
@@ -2525,7 +2525,7 @@ module Shield = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiShield";
@@ -2537,7 +2537,7 @@ module ShoppingBag = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiShoppingBag";
@@ -2549,7 +2549,7 @@ module ShoppingCart = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiShoppingCart";
@@ -2561,7 +2561,7 @@ module Shuffle = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiShuffle";
@@ -2573,7 +2573,7 @@ module Sidebar = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiSidebar";
@@ -2585,7 +2585,7 @@ module SkipBack = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiSkipBack";
@@ -2597,7 +2597,7 @@ module SkipForward = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiSkipForward";
@@ -2609,7 +2609,7 @@ module Slack = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiSlack";
@@ -2621,7 +2621,7 @@ module Slash = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiSlash";
@@ -2633,7 +2633,7 @@ module Sliders = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiSliders";
@@ -2645,7 +2645,7 @@ module Smartphone = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiSmartphone";
@@ -2657,7 +2657,7 @@ module Smile = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiSmile";
@@ -2669,7 +2669,7 @@ module Speaker = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiSpeaker";
@@ -2681,7 +2681,7 @@ module Square = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiSquare";
@@ -2693,7 +2693,7 @@ module Star = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiStar";
@@ -2705,7 +2705,7 @@ module StopCircle = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiStopCircle";
@@ -2717,7 +2717,7 @@ module Sun = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiSun";
@@ -2729,7 +2729,7 @@ module Sunrise = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiSunrise";
@@ -2741,7 +2741,7 @@ module Sunset = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiSunset";
@@ -2753,7 +2753,7 @@ module Tablet = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiTablet";
@@ -2765,7 +2765,7 @@ module Tag = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiTag";
@@ -2777,7 +2777,7 @@ module Target = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiTarget";
@@ -2789,7 +2789,7 @@ module Terminal = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiTerminal";
@@ -2801,7 +2801,7 @@ module Thermometer = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiThermometer";
@@ -2813,7 +2813,7 @@ module ThumbsDown = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiThumbsDown";
@@ -2825,7 +2825,7 @@ module ThumbsUp = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiThumbsUp";
@@ -2837,7 +2837,7 @@ module ToggleLeft = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiToggleLeft";
@@ -2849,7 +2849,7 @@ module ToggleRight = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiToggleRight";
@@ -2861,7 +2861,7 @@ module Trash2 = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiTrash2";
@@ -2873,7 +2873,7 @@ module Trash = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiTrash";
@@ -2885,7 +2885,7 @@ module Trello = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiTrello";
@@ -2897,7 +2897,7 @@ module TrendingDown = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiTrendingDown";
@@ -2909,7 +2909,7 @@ module TrendingUp = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiTrendingUp";
@@ -2921,7 +2921,7 @@ module Triangle = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiTriangle";
@@ -2933,7 +2933,7 @@ module Truck = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiTruck";
@@ -2945,7 +2945,7 @@ module Tv = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiTv";
@@ -2957,7 +2957,7 @@ module Twitter = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiTwitter";
@@ -2969,7 +2969,7 @@ module Type = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiType";
@@ -2981,7 +2981,7 @@ module Umbrella = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiUmbrella";
@@ -2993,7 +2993,7 @@ module Underline = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiUnderline";
@@ -3005,7 +3005,7 @@ module Unlock = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiUnlock";
@@ -3017,7 +3017,7 @@ module UploadCloud = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiUploadCloud";
@@ -3029,7 +3029,7 @@ module Upload = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiUpload";
@@ -3041,7 +3041,7 @@ module UserCheck = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiUserCheck";
@@ -3053,7 +3053,7 @@ module UserMinus = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiUserMinus";
@@ -3065,7 +3065,7 @@ module UserPlus = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiUserPlus";
@@ -3077,7 +3077,7 @@ module UserX = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiUserX";
@@ -3089,7 +3089,7 @@ module User = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiUser";
@@ -3101,7 +3101,7 @@ module Users = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiUsers";
@@ -3113,7 +3113,7 @@ module VideoOff = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiVideoOff";
@@ -3125,7 +3125,7 @@ module Video = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiVideo";
@@ -3137,7 +3137,7 @@ module Voicemail = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiVoicemail";
@@ -3149,7 +3149,7 @@ module Volume1 = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiVolume1";
@@ -3161,7 +3161,7 @@ module Volume2 = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiVolume2";
@@ -3173,7 +3173,7 @@ module VolumeX = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiVolumeX";
@@ -3185,7 +3185,7 @@ module Volume = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiVolume";
@@ -3197,7 +3197,7 @@ module Watch = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiWatch";
@@ -3209,7 +3209,7 @@ module WifiOff = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiWifiOff";
@@ -3221,7 +3221,7 @@ module Wifi = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiWifi";
@@ -3233,7 +3233,7 @@ module Wind = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiWind";
@@ -3245,7 +3245,7 @@ module XCircle = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiXCircle";
@@ -3257,7 +3257,7 @@ module XOctagon = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiXOctagon";
@@ -3269,7 +3269,7 @@ module XSquare = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiXSquare";
@@ -3281,7 +3281,7 @@ module X = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiX";
@@ -3293,7 +3293,7 @@ module Youtube = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiYoutube";
@@ -3305,7 +3305,7 @@ module ZapOff = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiZapOff";
@@ -3317,7 +3317,7 @@ module Zap = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiZap";
@@ -3329,7 +3329,7 @@ module ZoomIn = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiZoomIn";
@@ -3341,7 +3341,7 @@ module ZoomOut = {
       ~className: string=?,
       ~color: string=?,
       ~size: int=?,
-      ~style: ReactDOMRe.Style.t=?
+      ~style: ReactDOM.Style.t=?
     ) =>
     React.element =
     "FiZoomOut";

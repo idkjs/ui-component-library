@@ -214,7 +214,7 @@ let make =
   );
 
   <div
-    ref={ReactDOMRe.Ref.domRef(element)}
+    ref={ReactDOM.Ref.domRef(element)}
     className={
       Styles.container(state, variant, theme, minWidth) ++ "  " ++ className
     }>

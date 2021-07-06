@@ -1,0 +1,12 @@
+diff --git a/node_modules/bs-flexboxgrid/bsconfig.json b/node_modules/bs-flexboxgrid/bsconfig.json
+index bbd1c95..860f4b1 100644
+--- a/node_modules/bs-flexboxgrid/bsconfig.json
++++ b/node_modules/bs-flexboxgrid/bsconfig.json
+@@ -17,6 +17,5 @@
+   ],
+   "suffix": ".bs.js",
+   "namespace": true,
+-  "bs-dependencies": ["reason-react"],
+-  "refmt": 3
++  "bs-dependencies": ["@rescript/react"]
+ }

@@ -29,7 +29,7 @@
   "bs-dependencies": [
     "bs-flexboxgrid",
     "bs-webapi",
-    "reason-react",
+    "@rescript/react",
     "bs-css",
     "bs-css-emotion"
   ],
