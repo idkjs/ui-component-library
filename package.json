@@ -14,8 +14,12 @@
         "tdd": "jest --watchAll"
     },
     "lint-staged": {
-        "*.js": ["prettier --print-width 80 --write"],
-        "*.{re,rei}": ["bsrefmt --in-place"]
+        "*.js": [
+            "prettier --print-width 80 --write"
+        ],
+        "*.{re,rei}": [
+            "bsrefmt --in-place"
+        ]
     },
     "keywords": [
         "UI-Library",
@@ -53,7 +57,7 @@
         "@storybook/react": "^6.2.9",
         "@storybook/theming": "^6.2.9",
         "babel-loader": "^8.2.2",
-        "bs-platform": "^8.3.1",
+        "bs-platform": "9.0.2",
         "html-webpack-plugin": "^5.3.1",
         "husky": "^4.3.8",
         "lint-staged": "^10.4.2",
